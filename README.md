@@ -9,7 +9,7 @@ Ao automatizar e aprimorar essa análise com técnicas de Aprendizagem de Máqui
 engenharia de atributos espera-se tornar o processo de avaliação mais preciso e ágil. Isso pode contribuir
 para uma alocação de crédito mais eficiente, minimizando inadimplências e refinanciamentos.
 
-![imagem](https://github.com/lgsilva-dev/silo/blob/main/ChatGPT Image 23 de mai. de 2025, 12_12_06.png).
+![imagem](https://github.com/lgsilva-dev/credito/blob/main/imagemcredito.png).
 
 
 ## Processos Realizados:
