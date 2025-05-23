@@ -30,11 +30,13 @@ para uma alocação de crédito mais eficiente, minimizando inadimplências e re
 
   Os processos realizados são baseados na metodologia CRISP-DS
 
-  ## Caderos
+  ## Cadernos
+  
   O projeto foi desenvolvido em cadernos python.
-  Conteúdo dos cadernos:
-  1- CreditoCreateData.ipynb
-  2- CreditoEDA.ipynb
-  3- Validacoes.ipynb
-  4- BaseDf.ipynb
-  5- model.ipynb
+  
+  **Conteúdo dos cadernos:**
+  - 1 CreditoCreateData.ipynb
+  - 2 - CreditoEDA.ipynb
+  - 3 Validacoes.ipynb
+  - 4- BaseDf.ipynb
+  - 5 model.ipynb
