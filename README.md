@@ -35,8 +35,8 @@ para uma alocação de crédito mais eficiente, minimizando inadimplências e re
   O projeto foi desenvolvido em cadernos python.
   
   **Conteúdo dos cadernos:**
-  - 1 - CreditoCreateData.ipynb
-  - 2- CreditoEDA.ipynb
-   -3 - Validacoes.ipynb
-  - 4- BaseDf.ipynb
-  - 5- model.ipynb
+1. CreditoCreateData.ipynb
+  -  CreditoEDA.ipynb
+  - Validacoes.ipynb
+  - BaseDf.ipynb
+  - model.ipynb
