@@ -10,7 +10,7 @@ engenharia de atributos espera-se tornar o processo de avaliação mais preciso 
 para uma alocação de crédito mais eficiente, minimizando inadimplências e refinanciamentos.
 
 <p align="center">
-  <img src="https://github.com/lgsilva-dev/credito/blob/main/imagemcredito.png" alt="imagem" width="30%">
+  <img src="https://github.com/lgsilva-dev/credito/blob/main/imagemcredito.png" alt="imagem" width="35%">
 </p>
 
 ## Processos Realizados:
