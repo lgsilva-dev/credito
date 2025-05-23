@@ -36,7 +36,7 @@ para uma alocação de crédito mais eficiente, minimizando inadimplências e re
   
   **Conteúdo dos cadernos:**
 1. CreditoCreateData.ipynb
-  -  CreditoEDA.ipynb
-  - Validacoes.ipynb
-  - BaseDf.ipynb
-  - model.ipynb
+2.  CreditoEDA.ipynb
+3. Validacoes.ipynb
+4. BaseDf.ipynb
+5. model.ipynb
