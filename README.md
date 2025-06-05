@@ -41,6 +41,6 @@ para uma alocação de crédito mais eficiente, minimizando inadimplências e re
   **Conteúdo dos cadernos:**
 1. CreditoCreateData.ipynb > Função da criação dos dados e validação do dataset
 2.  CreditoEDA.ipynb > Limpeza e tratamento dos dados sintéticos e primeiras explorações.
-3. Validacoes.ipynb > Plot de gráficos dos indicadores e suas relações.
+3. relatorio.ipynb > Plot de gráficos dos indicadores e suas relações.
 4. BaseDf.ipynb > Limpeza e tratamento dos dados originais para comparação com dados sintéticos.
 5. model.ipynb > Normalização, PCA, Modelagem e Validação.
