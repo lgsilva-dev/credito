@@ -26,9 +26,7 @@ E o modelo treinado irá retonar um valor que será [0 ou 1] que indica a sugest
 
 Para utilizar o modelo ja treinado basta utilizar os Arquivos .pkl disponibilizados em credito/modelo/{arquivo.pkl} e desempacota-lo da seguinte forma:
 
-´´´
-# --- Carregar o Modelo Salvo ---
-
+```
 try:
     modelo = joblib.load('random_forest_credit_model.pkl')
     print("Modelo Random Forest salvo com sucesso!")
@@ -36,8 +34,10 @@ try:
 except FileNotFoundError:
     print(f"Erro: O arquivo '{modelo}' não foi encontrado.")
     exit()
+
+```
+
     
-´´´
 
 ### Random Forest (Floresta Aleatória)
 
