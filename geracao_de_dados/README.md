@@ -5,6 +5,8 @@
 
   * Se o crédito deve ser concedido.
   * Qual o limite de crédito apropriado.
+    
+## Indicadores
 
 * O modelo considera 11 indicadores chave, cada um com um peso específico na avaliação final:
 
@@ -20,17 +22,17 @@
   * Seguros (5%): Verifica se a empresa possui apólices de seguro ativas
   * Serasa Score PJ (5%): Pontuação de crédito que indica probabilidade de pagamento em dia
 
-* **NOTAS**
+## Funcionamento do Script de geração de dados
 
-Geração dos Indicadores Financeiros
 Para cada indicador financeiro, o código segue um padrão:
 
 * Gera valores aleatórios considerando as distribuições apropriadas
 * Diferencia empresas de perfil bom e ruim usando distribuições estatísticas distintas
 * Atribui uma nota (1-5) com base em faixas de valores
 * Calcula a nota ponderada multiplicando a nota pelo peso do indicador
-
 * Os indicadores são gerados de forma correlacionada (exemplo: dívida baseada no EBITDA), simulando dados reais onde as variáveis financeiras normalmente estão interrelacionadas.
 * Diferenciação de Perfis: O código usa o array perfil_ruim para consistentemente gerar dados que refletem a saúde financeira global da empresa em todos os indicadores.
 
 Esta estrutura de geração garante um conjunto de dados sintéticos que simula de forma realista o comportamento de empresas no contexto de análise de crédito, com padrões e correlações que se assemelham aos encontrados em dados reais.
+
+* Ao executar o código será retornado um Dataframe em .csv
