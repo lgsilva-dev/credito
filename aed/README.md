@@ -13,10 +13,9 @@ Esta pasta contém os notebooks Jupyter que foram utilizados para a Análise Exp
 
 Este notebook é o ponto de partida para a AED. Suas principais finalidades são:
 
-* **Limpeza de Dados:** Tratar inconsistências e quaisquer outros problemas que possam comprometer a qualidade dos dados.
+* **Limpeza de Dados:** Tratar inconsistências, colunas desnecessárias, renomear colunas, verificar valores nulos e duplicados e quaisquer outros problemas que possam comprometer a qualidade dos dados.
 * **Análise Exploratória Inicial:** Realizar análises descritivas, visualizar distribuições de variáveis, identificar outliers e entender a composição geral do dataset.
 * **Preparação para Análises Mais Profundas:** Assegurar que os dados estejam em um formato adequado e limpo para as etapas de validação e modelagem.
-* **Utilização da Biblioteca `phik`**: Este notebook emprega a biblioteca `phik` para calcular correlações e informações mútuas, permitindo a identificação de relacionamentos mais complexos e não lineares entre as variáveis, o que é crucial para uma compreensão aprofundada dos dados.
 
 ### `validacoes.ipynb` (Caderno de Validação e Análise de Correlação)
 
@@ -28,9 +27,24 @@ Após a limpeza e exploração inicial, este notebook aprofunda a análise, com 
 
 ## Conclusões Gerais sobre a AED
 
-A Análise Exploratória de Dados, realizada através desses dois notebooks, é fundamental para o sucesso do projeto de análise de crédito. Através dela, pudemos:
+* **Colunas com maior correlação de phi_k com a concessão de crédito:**
+  * RATING GO ON	1.000000
+  * SCORE GO ON	0.994118
+  * Divida liquida/EBTIDA	0.968655
+  * Margem EBITDA	0.959538
+  * Indice de liquidez	0.943840
+  * Serasa Score	0.891745
+  * Conversao Ebitda em FCO	0.827627
+  * PEFIN	0.755028
+  * Ciclo Financeiro	0.710156
+  * Auditorias	0.700356
+  * Garantia	0.599859
+  * Tempo de atuação em anos	0.562323
+  * Seguros	0.445830
 
-* **Garantir a Qualidade dos Dados:** Identificar e tratar problemas nos dados, tornando-os confiáveis para as próximas etapas.
-* **Obter Insights Valiosos:** Compreender as distribuições das variáveis e suas relações, especialmente como elas impactam a aprovação de crédito.
-* **Fundamentar a Modelagem:** Aprofundar o conhecimento sobre os dados é crucial para construir um modelo de Machine Learning robusto e preciso. As correlações e padrões descobertos aqui servirão de base para a seleção de features e o desenvolvimento do modelo.
-* **Entender a Relevância das Variáveis:** A análise de correlação destacou quais variáveis financeiras e de comportamento (como Faturamento, EBITDA, Serasa Score, etc.) possuem maior influência na decisão de crédito, validando a importância dessas características para o modelo.
+* **Correlações gerais:**
+  As colunas se relacionam entre si, porém, não tanto quanto dados reais, por ex: Uma coluna com valores derivados de EBITDA devem ter uma correlação alta umas com as outras e como nossos dados são gerados sintéticos e aleatorios para cada coluna não tem como construir  uma relação tão forte, estas relações implicam no modelo de Machine Learning que será desenvolvido, pois os modelo é um mero reflexo dos dados e da qualidade deles.
+
+* **Disclaimer:**
+  Este conjunto de dados foi gerado artificialmente, logo, as conclusões geradas são também artificais e cabem somente para este estudo de caso, não é porque o conjunto de dados foi baseado em dados reais que ele tem a capacidade de estar em um projeto real.
+  
