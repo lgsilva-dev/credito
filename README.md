@@ -13,6 +13,53 @@ para uma alocação de crédito mais eficiente, minimizando inadimplências e re
   <img src="https://github.com/lgsilva-dev/credito/blob/main/imagemcredito.png" alt="imagem" width="35%">
 </p>
 
+## Como Executar os Cadernos
+ 
+Para executar os notebooks, siga os passos abaixo:
+ 
+1.  **Pré-requisitos:**
+    * Python 3.x instalado.
+    * Jupyter Notebook/JupyterLab ou Google Colab.
+      Para executar de uma forma menos burocrática e ter que instalar menos bibliotecas utilizar o google colab, ponto negativo é que ao executar os modelos de ML ele irá demorar um pouco mais devido ao gridsearchcv.
+    * As bibliotecas Python necessárias (listadas abaixo).
+      * pandas
+      * numpy
+      * scikit-learn
+      * gridsearchcv
+      * phik
+      * seaborn
+      * matplotlib
+      * random
+      * datetime
+      * scipy
+      * xgboost
+      * joblib
+
+ 
+2.  **Instalação das Dependências:**
+    * É recomendável criar um ambiente virtual para isolar as dependências do projeto.
+    * No terminal, navegue até a pasta raiz do projeto e execute:
+        ```bash
+        python -m venv venv
+        venv\Scripts\activate 
+        ```
+    * Instale as bibliotecas necessárias. Embora os notebooks instalem algumas delas, é bom garantir que todas estejam presentes:
+        ```bash
+        pip install -r requirements.txt
+        ```
+ 
+3.  **Execução dos Notebooks:**
+    * Após a instalação das dependências, inicie o Jupyter Notebook ou JupyterLab no terminal, na pasta raiz do projeto:
+        ```bash
+        jupyter notebook
+        # ou
+        jupyter lab
+        ```
+    * Seu navegador padrão será aberto com a interface do Jupyter.
+    * Escolha um notebook clique em `notebook.ipynb` para abri-lo e execute as células sequencialmente.
+ 
+---
+
 ## Processos Realizados:
 
 ### Etapas
